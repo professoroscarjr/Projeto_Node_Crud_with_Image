@@ -22,28 +22,33 @@ Este é um projeto de exemplo para gerenciar produtos com funcionalidades de CRU
 
 ## Configuração
 
-- Clone o repositório:
-   ```bash
+1. Clone o repositório:
+   bash
    git clone <URL_DO_REPOSITORIO>
    cd crud_img
 
 
 
-- Instale as dependências:
+2. Instale as dependências e Inicialize o projeto Node.js:
+
+   npm init -y
+
    npm install
+   npm install express mysql2 multer dotenv
 
+ 
 
-- Configure o arquivo .env com as variáveis de ambiente:
+3. Configure o arquivo .env com as variáveis de ambiente:
 
-DB_HOST=localhost
-DB_USER=seu_usuario
-DB_PASSWORD=sua_senha
-DB_NAME=nome_do_banco
+    - DB_HOST=localhost
+    - DB_USER=seu_usuario
+    - DB_PASSWORD=sua_senha
+    - DB_NAME=nome_do_banco
 
-- Crie o banco de dados MySQL e a tabela products:
+4. Crie o banco de dados MySQL e a tabela products:
 
-CREATE DATABASE nome_do_banco;
-USE nome_do_banco;
+- CREATE DATABASE nome_do_banco;
+- USE nome_do_banco;
 
 CREATE TABLE products (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -53,6 +58,8 @@ CREATE TABLE products (
     image_url VARCHAR(255)
 );
 
-- Inicie o servidor:
+5. Inicie o servidor:
 
-npm start
+    - npm start
+
+
