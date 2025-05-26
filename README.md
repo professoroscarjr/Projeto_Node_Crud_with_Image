@@ -22,25 +22,25 @@ Este é um projeto de exemplo para gerenciar produtos com funcionalidades de CRU
 
 ## Configuração
 
-1. Clone o repositório:
+- Clone o repositório:
    ```bash
    git clone <URL_DO_REPOSITORIO>
    cd crud_img
 
 
 
-2. Instale as dependências:
+- Instale as dependências:
    npm install
 
 
-3. Configure o arquivo .env com as variáveis de ambiente:
+- Configure o arquivo .env com as variáveis de ambiente:
 
 DB_HOST=localhost
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
 DB_NAME=nome_do_banco
 
-4. Crie o banco de dados MySQL e a tabela products:
+- Crie o banco de dados MySQL e a tabela products:
 
 CREATE DATABASE nome_do_banco;
 USE nome_do_banco;
@@ -53,6 +53,6 @@ CREATE TABLE products (
     image_url VARCHAR(255)
 );
 
-5. Inicie o servidor:
+- Inicie o servidor:
 
 npm start
