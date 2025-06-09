@@ -58,7 +58,7 @@ CREATE TABLE products (
     image_url VARCHAR(255)
 );
 
-5. Inicie o servidor:
+5.Para testar o proketo após criar o banco e iniciar o Mysql , vá até o terminal e inicie o servidor:
 
     - npm start
 
